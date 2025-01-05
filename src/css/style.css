@@ -97,6 +97,7 @@ body{
 
 .container .info .btn:hover{
     background-color: var(--neutra1);
+    transform: scale(1.03);
 }
 
 .carrinho-de-compras{

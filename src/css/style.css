@@ -1,0 +1,109 @@
+body{
+    background-color: var(--primaria2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: var(--neutra3);
+    width: 600px;
+    border-radius: 10px;
+}
+
+.container .desktop img{
+    border-radius: 10px 0 0 10px;
+    width: 300px;
+    height: 100%;
+}
+
+.container .info{
+    padding: 30px;
+    position: relative;
+}
+
+.container .info .perfume{
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container .info .perfume,
+.descricao-perfume,
+.preco-original{
+    color: var(--neutra2)
+}
+
+.container .info .nome-perfume{
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.container .info .nome-perfume,
+.descricao-perfume{
+    margin-bottom: 28px;
+}
+
+.container .info .descricao-perfume{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.container .info .promocao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fraunces", sans-serif;
+    font-size: 30px;
+    color: var(--primaria1);
+    position: absolute;
+    animation: ocilar 0.6s infinite alternate ease-in-out;
+    margin-top: -10px;
+}
+
+@keyframes ocilar {
+    0% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+.container .info .preco-original{
+    font-size: 14px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .info .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--primaria1);
+    height: 45px;
+    color: var(--neutra3);
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.container .info .btn:hover{
+    background-color: var(--neutra1);
+}
+
+.carrinho-de-compras{
+    height: 20px;
+}
+
+.container .info .btn
+.fas.fa-shopping-cart{
+    margin-right: 10px;
+}

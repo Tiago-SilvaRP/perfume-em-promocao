@@ -1,0 +1,8 @@
+:root{
+    --primaria1: hsl(158, 36%, 37%);
+    --primaria2: hsl(30, 38%, 92%);
+
+    --neutra1: hsl(167, 89%, 22%);
+    --neutra2: hsl(228, 12%, 48%);
+    --neutra3: hsl(0, 0%, 100%);
+}

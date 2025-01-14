@@ -12,9 +12,9 @@ Exibição de detalhes do perfume, incluindo:
 - Preço promocional em destaque.
 - Botão "Add to Cart" que pode adicionar o produto ao carrinho.
 - Imagens do produto.
-Design responsivo, garantindo exibição adequada em diferentes dispositivos.
+- Design responsivo, garantindo exibição adequada em diferentes dispositivos.
 
 ## Tecnologias Utilizadas
 
-HTML5: Estrutura básica do componente.
-CSS3: Estilos visuais, incluindo efeitos de destaque e responsividade.
+- HTML5: Estrutura básica do componente.
+- CSS3: Estilos visuais, incluindo efeitos de destaque e responsividade.

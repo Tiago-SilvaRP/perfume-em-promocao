@@ -1,9 +1,9 @@
-## Componente: Perfume em Promoção
+# Componente: Perfume em Promoção
 Este componente exibe informações sobre um perfume em promoção, 
 incluindo o nome do produto, preço promocional, preço original, 
 descrição, imagem e um botão para adicionar item ao carrinho.
 
-# Funcionalidades
+## Funcionalidades
 Destaque visual para o preço promocional.
 Exibição de detalhes do perfume, incluindo:
 - Nome do produto.
@@ -14,6 +14,7 @@ Exibição de detalhes do perfume, incluindo:
 - Imagens do produto.
 Design responsivo, garantindo exibição adequada em diferentes dispositivos.
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
+
 HTML5: Estrutura básica do componente.
 CSS3: Estilos visuais, incluindo efeitos de destaque e responsividade.
